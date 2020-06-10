@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -79,14 +79,14 @@
 
 
 
-<meta name="description" content="前言自从接触互联网就幻想有一个属于自己的网站，记录着生活小事和学习过程的总结。而此次成功建站还是多得互联网大神劳作的成果和经验分享。本BLOG基于Node.js利用Hexo博客框架生成部署在Github上，Hexo是快速、简洁且高效的博客框架，自身有很多插件的支持，包括有数百个主题可选，更换方式非常简单。下面记录一下创建的过程和怎么部署到github上。 1. 前期准备安装node.js、gith">
+<meta name="description" content="前言自从接触互联网就幻想有一个属于自己的网站，记录着生活小事和学习过程的总结。而此次成功建站还是多得互联网大神劳作的成果和经验分享。本BLOG基于Node.js利用Hexo博客框架生成部署在Github上，[Hexo][1]是快速、简洁且高效的博客框架，自身有很多插件的支持，包括有数百个主题可选，更换方式非常简单。下面记录一下创建的过程和怎么部署到github上。 1. 前期准备安装node.js">
 <meta property="og:type" content="article">
 <meta property="og:title" content="记录我从0搭建Blog">
 <meta property="og:url" content="http://yoursite.com/2020/06/09/%E8%AE%B0%E5%BD%95%E6%88%91%E4%BB%8E0%E6%90%AD%E5%BB%BABlog/index.html">
 <meta property="og:site_name" content="Sean&#39;s Blog">
-<meta property="og:description" content="前言自从接触互联网就幻想有一个属于自己的网站，记录着生活小事和学习过程的总结。而此次成功建站还是多得互联网大神劳作的成果和经验分享。本BLOG基于Node.js利用Hexo博客框架生成部署在Github上，Hexo是快速、简洁且高效的博客框架，自身有很多插件的支持，包括有数百个主题可选，更换方式非常简单。下面记录一下创建的过程和怎么部署到github上。 1. 前期准备安装node.js、gith">
+<meta property="og:description" content="前言自从接触互联网就幻想有一个属于自己的网站，记录着生活小事和学习过程的总结。而此次成功建站还是多得互联网大神劳作的成果和经验分享。本BLOG基于Node.js利用Hexo博客框架生成部署在Github上，[Hexo][1]是快速、简洁且高效的博客框架，自身有很多插件的支持，包括有数百个主题可选，更换方式非常简单。下面记录一下创建的过程和怎么部署到github上。 1. 前期准备安装node.js">
 <meta property="article:published_time" content="2020-06-09T11:40:57.046Z">
-<meta property="article:modified_time" content="2020-06-09T13:00:31.771Z">
+<meta property="article:modified_time" content="2020-06-10T03:10:53.014Z">
 <meta property="article:author" content="Sean Lai">
 <meta name="twitter:card" content="summary">
 
@@ -96,7 +96,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -199,6 +199,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            时间轴
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-commonweal">
           <a href="/404" rel="section">
             
@@ -286,8 +306,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-09T21:00:31+08:00">
-                2020-06-09
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-10T11:10:53+08:00">
+                2020-06-10
               </time>
             
           </span>
@@ -330,7 +350,7 @@
       
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>自从接触互联网就幻想有一个属于自己的网站，记录着生活小事和学习过程的总结。而此次成功建站还是多得互联网大神劳作的成果和经验分享。本BLOG基于Node.js利用Hexo博客框架生成部署在Github上，<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener" title="Hexo">Hexo</a>是快速、简洁且高效的博客框架，自身有很多插件的支持，包括有数百个主题可选，更换方式非常简单。下面记录一下创建的过程和怎么部署到github上。</p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>自从接触互联网就幻想有一个属于自己的网站，记录着生活小事和学习过程的总结。而此次成功建站还是多得互联网大神劳作的成果和经验分享。本BLOG基于Node.js利用Hexo博客框架生成部署在Github上，[Hexo][1]是快速、简洁且高效的博客框架，自身有很多插件的支持，包括有数百个主题可选，更换方式非常简单。下面记录一下创建的过程和怎么部署到github上。</p>
 <h3 id="1-前期准备"><a href="#1-前期准备" class="headerlink" title="1. 前期准备"></a>1. 前期准备</h3><h6 id="安装node-js、github及账号注册"><a href="#安装node-js、github及账号注册" class="headerlink" title="安装node.js、github及账号注册"></a>安装node.js、github及账号注册</h6><pre><code>1. node.js  [链接](https://nodejs.org/zh-cn/download/ &quot;链接&quot;)
 2. github    [github](http://github.io &quot;github&quot;)下载并注册账号,和设置好公钥
 3. 打开Gitbash
@@ -348,8 +368,10 @@
         repository: git@github.com:itmifen/blog.git
         branch: master
 ＄npm install hexo-deployer-git --save
-＄hexo deploy</code></pre><h6 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h6><pre><code>参考我的：```html</code></pre><p><a href="http://chaixiaoxin.github.io" target="_blank" rel="noopener">http://chaixiaoxin.github.io</a></p>
-<p>```</p>
+＄hexo deploy</code></pre><h6 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h6><h6 id="参考：http-chaixiaoxin-github-io"><a href="#参考：http-chaixiaoxin-github-io" class="headerlink" title="参考：http://chaixiaoxin.github.io"></a>参考：<a href="http://chaixiaoxin.github.io" target="_blank" rel="noopener">http://chaixiaoxin.github.io</a></a></h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[1]: https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F; &quot;Hexo&quot;</span><br></pre></td></tr></table></figure>
+
+
+<p>[^何以解忧_唯有学习_我是SeanLai]: </p>
 
       
     </div>
@@ -370,6 +392,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/06/10/seosem%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%95%BF%E5%B0%BE%E5%85%B3%E9%94%AE%E8%AF%8D/" rel="prev" title="SEOer/SEMer选择长尾关键词的6个方向和拓词手法">
+                SEOer/SEMer选择长尾关键词的6个方向和拓词手法 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -448,9 +486,9 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives">
+                <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -459,21 +497,20 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
 
           </nav>
 
           
 
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/chaixiaoxin" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i>GitHub</a>
-                  </span>
-                
-            </div>
           
 
           
@@ -515,7 +552,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-前期准备"><span class="nav-number">2.</span> <span class="nav-text">1. 前期准备</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#安装node-js、github及账号注册"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">安装node.js、github及账号注册</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#创建的过程"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">创建的过程</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#部署"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">部署</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#最终效果"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">最终效果</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-前期准备"><span class="nav-number">2.</span> <span class="nav-text">1. 前期准备</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#安装node-js、github及账号注册"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">安装node.js、github及账号注册</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#创建的过程"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">创建的过程</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#部署"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">部署</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#最终效果"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">最终效果</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#参考：http-chaixiaoxin-github-io"><span class="nav-number">2.0.0.5.</span> <span class="nav-text">参考：http:&#x2F;&#x2F;chaixiaoxin.github.io</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -553,7 +590,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
 
 
 
@@ -652,13 +689,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
